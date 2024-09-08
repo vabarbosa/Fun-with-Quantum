@@ -2,13 +2,13 @@
 
 "Fun with Quantum" is a collection of Jupyter notebooks that highlight specific aspects of Quantum Computing that are interesting and/or fun.
 
- 1. Quantum Coin Game (superposition & interference))  
+ 1. Quantum Coin Game (superposition & interference)
  2. Simple Quantum Implementation for Boolean satisfiability problems 
- 3. Even Simpler Quantum Implementation for Boolean satisfiability problems (under development) 
+ 3. Even Simpler Quantum Implementation for Boolean satisfiability problems
  4. Hardy's Paradox (complementary observables & the problem with classical logic) 
  5. GHZ Game (entanglement)
  6. GHZ Game on real devices
- 7. Mermin-Peres Magic Square (under development)
+ 7. Mermin-Peres Magic Square
  
  
 ---
@@ -21,21 +21,9 @@ View - and play the game online, without any install - in Binder: [![Binder](htt
 
 ---
 
-### How to execute the Examples in the IBM Quantum Lab
-You can run the jupyter notebooks with the different Serious Games in the IBM Quantum Lab without the need for a local software install.
-1. Open the Quantum Lab in your browser: https://quantum-computing.ibm.com/
-2. If you already have an ID sign in to IBM Quantum.<br/> 
-Otherwise, please create an IBMid by clicking `Create an IBM account`, or use one of the other ID options.
-3. Launch the Quantum Lab.
-4. Create a new file by clicking on the blue button `New file +`.
-5. Delete the code from the first cell and enter
-```python
-!git clone https://github.com/JanLahmann/Fun-with-Quantum
-```
-6. Execute the cell with `Shift + Enter`. The Fun-with-Quantum Repository will now be cloned in your IBM Quantum Lab.<br/>
-To see the new folder `Fun-with-Quantum` in the directory-tree on the left side, close and open the Lab files side menu.
-7. Click `Fun-with-Quantum` to enter the new directory.
-8. Open the `Readme.ipynb`-file and follow the links to the different examples.
+### How to get started with the examples
+
+Getting started instructions can be found in the [GETTING_STARTED](GETTING_STARTED.md) document. 
 
 ---
 ### RasQberry: Exploring Quantum Computing and Qiskit with a Raspberry Pi and a 3D Printer
@@ -46,7 +34,7 @@ RasQberry integrates Qiskit, a Raspberry Pi (the full range from Pi 4 down to a 
 
 ---
 ### 1. Quantum Coin Game 
-A quantum coin game that illustrates the power of quantum superposition and interference  - implemented by Jan-R. Lahmann using [Qiskit](https://qiskit.org), [binder](https://mybinder.org) and [RISE](https://rise.readthedocs.io/en/stable/).
+A quantum coin game that illustrates the power of quantum superposition and interference  - implemented by Jan-R. Lahmann using [Qiskit](https://www.ibm.com/quantum/qiskit), [binder](https://mybinder.org) and [RISE](https://rise.readthedocs.io/en/latest/).
 
 Inspired by the TED talk of Shohini Ghose ["Quantum computing explained in 10 minutes"](https://www.ted.com/talks/shohini_ghose_quantum_computing_explained_in_10_minutes) 
 
@@ -73,14 +61,14 @@ Walk through this demo (and change it if you like) in Binder: [![Binder](https:/
 
 Hardy's Paradox nicely illustrates the fundamental difference of Quantum Mechanics and classical physics. Learn about complementary oberservables and why classical logic is not applicable to quantum mechanics.
  
-A tutorial that discusses a specific version of the Einstein-Podolsky-Rosen (EPR) Paradox  - implemented by Jan-R. Lahmann & Bengt Wegner using [Qiskit](https://qiskit.org), [binder](https://mybinder.org) and [RISE](https://rise.readthedocs.io/en/stable/), based on an idea in a former version of the [Qiskit Textbook](https://qiskit.org/textbook)
+A tutorial that discusses a specific version of the Einstein-Podolsky-Rosen (EPR) Paradox  - implemented by Jan-R. Lahmann & Bengt Wegner using [Qiskit](https://www.ibm.com/quantum/qiskit), [binder](https://mybinder.org) and [RISE](https://rise.readthedocs.io/en/latest/), based on an idea in a former version of the [Qiskit Textbook](https://github.com/qiskit-community/qiskit-textbook/)
 
 View - and play the game online, without any install - in Binder: [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/JanLahmann/Fun-with-Quantum/master?filepath=Hardys-Paradox.ipynb) 
 
 ---
 ### 5. GHZ Game
 
-A quantum game that illustrates the power of quantum entanglement  - implemented by Isabell Heider using [Qiskit](https://qiskit.org) and [binder](https://mybinder.org). 
+A quantum game that illustrates the power of quantum entanglement  - implemented by Isabell Heider using [Qiskit](https://www.ibm.com/quantum/qiskit) and [binder](https://mybinder.org). 
 
 For an introductions to the GHZ Game, please take a look at the following [presentation](https://github.com/JanLahmann/Fun-with-Quantum/blob/master/GHZGame/GHZ%20Game.pdf) by Jana Foehlisch.
 
@@ -89,7 +77,7 @@ View - and play the game online, without any install - in Binder: [![Binder](htt
 ---
 ### 6. GHZ Game on real devices
 
-Analyzing different techniques how to improve the results of playing the GHZ game on real quantum devices - implemented by Lennart Schulze using [Qiskit](https://qiskit.org) and [binder](https://mybinder.org). 
+Analyzing different techniques how to improve the results of playing the GHZ game on real quantum devices - implemented by Lennart Schulze using [Qiskit](https://www.ibm.com/quantum/qiskit) and [binder](https://mybinder.org). 
 
 This notebook compares several IBM Quantum devices, explains how to (manually) optimize a circuit for a specific device, how to use the Qiskit transpiler and its optimizations, and discusses Measurement Error Mitigation.
 
@@ -97,7 +85,7 @@ View - and play the game online on real quantum devices, without any install - i
 
 ---
 ### 7. Mermin-Peres Magic Square (under development)
-A base version of the Mermin-Peres magic square game demonstrating the computational power of quantum computers, which can be further extended to outperform classical machines - extended by Jan-R. Lahmann & David Drexlin with [Qiskit](https://qiskit.org). Based on the Medium article [This Proof Demonstrates a Quantum Advantage, Even for Noisy Quantum Computers](https://medium.com/qiskit/this-proof-demonstrates-a-quantum-advantage-even-for-noisy-quantum-computers-b44a738801ad). 
+A base version of the Mermin-Peres magic square game demonstrating the computational power of quantum computers, which can be further extended to outperform classical machines - extended by Jan-R. Lahmann & David Drexlin with [Qiskit](https://www.ibm.com/quantum/qiskit). Based on the Medium article [This Proof Demonstrates a Quantum Advantage, Even for Noisy Quantum Computers](https://medium.com/qiskit/this-proof-demonstrates-a-quantum-advantage-even-for-noisy-quantum-computers-b44a738801ad). 
 
 View - and play the game online, without any install - in Binder: [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/JanLahmann/Fun-with-Quantum/master?filepath=Mermin–Peres-Game.ipynb)
 
@@ -131,7 +119,7 @@ Then you can go through some of the Serious Games to experience the differences 
 ---
 ### IEEE QCE20 Tutorial on "Serious Games for Quantum Computing"
 
-For the [tutorial "Serious Games for Quantum Computing"](https://qce.quantum.ieee.org/tutorials/#tut-lahmann-heider) as part of the IEEE QCE20 conference, please use the following URLs to launch the tutorial notebooks:
+For the [tutorial "Serious Games for Quantum Computing"](https://qce20.quantum.ieee.org/tutorials/#tut-lahmann-heider) as part of the IEEE QCE20 conference, please use the following URLs to launch the tutorial notebooks:
 
 Part 2 "Quantum Coin Game": [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/JanLahmann/Fun-with-Quantum/master?filepath=Quantum-Coin-Game.ipynb)
 
@@ -139,7 +127,7 @@ Part 3.1 "GHZ Game": [![Binder](https://mybinder.org/badge_logo.svg)](https://my
 
 Part 3.2 "GHZ Game on real devices": [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/JanLahmann/Fun-with-Quantum/master?filepath=GHZ-on-Real-Devices.ipynb)
 
-A recording of the three 1h tutorial sessions ["Serious Games for Quantum Computing"](https://qce.quantum.ieee.org/tutorials/#tut-lahmann-heider) from the [IEEE International Conference on Quantum Computing and Engineering (QCE20)](https://qce.quantum.ieee.org/) are available here: [part 1](https://ibm.box.com/v/IEEE-QCE20-QSeriousGames-1), [part 2](https://ibm.box.com/v/IEEE-QCE20-QSeriousGames-2), [part 3](https://ibm.box.com/v/IEEE-QCE20-QSeriousGames-3). The agenda for the three parts is [here](https://ibm.box.com/v/IEEE-QCE20-QSeriousGames-0).
+A recording of the three 1h tutorial sessions ["Serious Games for Quantum Computing"](https://qce20.quantum.ieee.org/tutorials/#tut-lahmann-heider) from the [IEEE International Conference on Quantum Computing and Engineering (QCE20)](https://qce20.quantum.ieee.org/) are available here: [part 1](https://ibm.box.com/v/IEEE-QCE20-QSeriousGames-1), [part 2](https://ibm.box.com/v/IEEE-QCE20-QSeriousGames-2), [part 3](https://ibm.box.com/v/IEEE-QCE20-QSeriousGames-3). The agenda for the three parts is [here](https://ibm.box.com/v/IEEE-QCE20-QSeriousGames-0).
 
 ---
 Jan-R. Lahmann, http://twitter.com/JanLahmann
