@@ -8,6 +8,5 @@ qiskit-experiments==0.7.0
 qiskit-aqt-provider==1.8.1
 qiskit-algorithms==0.3.0
 qiskit-aer==0.14.2
-rise==5.7.1
 seaborn==0.13.2
 wget==3.2
