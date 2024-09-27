@@ -1,0 +1,2 @@
+# Binder specific requirements
+rise==5.7.1
