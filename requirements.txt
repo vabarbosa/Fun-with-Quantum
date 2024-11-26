@@ -1,0 +1,12 @@
+ipywidgets==8.1.5
+matplotlib==3.9.2
+numpy==1.26.4
+pylatexenc==2.10
+qiskit[visualization]==1.2.0
+qiskit-ibm-runtime==0.28.0
+qiskit-experiments==0.7.0
+qiskit-aqt-provider==1.8.1
+qiskit-algorithms==0.3.0
+qiskit-aer==0.14.2
+seaborn==0.13.2
+wget==3.2
